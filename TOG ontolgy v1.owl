@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3">
+        <owl:versionIRI rdf:resource="urn:absolute:www.sarahjmaasbooks.com/ontologies/throneofglass.owl"/>
+        <rdfs:comment>The ontology of the Throne of Glass series by Sarah J Mass.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000063 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000063">
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+        <rdfs:label>isBoarderdBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000064 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000064">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isOffTheCoastOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000002 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000002">
+        <rdfs:comment>The fantasy book series by New York Times #1 best selling author, Sarah J Maas.</rdfs:comment>
+        <rdfs:label xml:lang="en">ThroneOfGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000007 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000007">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">Orynth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000008 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">Perranth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000009 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">Suria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000010 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000011 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">FrozenWastes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000012 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000024 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
+        <rdfs:label xml:lang="en">Bellhaven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">Noll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000003 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:label xml:lang="en">People</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000004 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:label xml:lang="en">Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000005 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:label xml:lang="en">Erilea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000006 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">Terrasen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000013 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">Adarlan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000014 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000014">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">Rifthold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000015 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">Meah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000016 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">Endovier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000017 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000016"/>
+        <rdfs:label xml:lang="en">SaltMines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000018 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">Morath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000019 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">Anielle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000020 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">TheFerianGap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000021 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">TheSilverLake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000022 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:label xml:lang="en">AveryRiver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000023 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">Fenharrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000025 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">DeadIslands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000026 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">Melisande</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000027 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:label xml:lang="en">Wendlyn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000028 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">Eyllwe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000029 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:label xml:lang="en">Calaculla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000030 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:label xml:lang="en">Leriba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000031 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:label xml:lang="en">Banjali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000032 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:label xml:lang="en">GrasslandsOfEyllwe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000033 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">MountainRanges/LargeForest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000041 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000011"/>
+        <rdfs:label xml:lang="en">Amaroth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000042 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000011"/>
+        <rdfs:label xml:lang="en">TheRuinsOfMorla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000043 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000011"/>
+        <rdfs:label xml:lang="en">JungleOfMorla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000044 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">TheWesyernWastes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000045 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:label xml:lang="en">TheWitchKingdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000046 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:label xml:lang="en">Briarcliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000047 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:label xml:lang="en">BogdanoJungle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000048 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:label xml:lang="en">TheDesertedLand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000049 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">TheSingingSands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000050 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">Yurpa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000051 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">TheRedDesert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000052 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:comment>A river near Xandria in the Deserted Lands.</rdfs:comment>
+        <rdfs:label xml:lang="en">TheCleaver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000053 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">Xandria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000054 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">OasisOfBarg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000055 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">TheBlackDunes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000057 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:label xml:lang="en">TheBlackSandsofRoth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000058 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:label xml:lang="en">TheSouthernContinent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000059 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:label xml:lang="en">OceanicBodiesOfWater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000060 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000060">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:label xml:lang="en">NorthSea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000061 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:label xml:lang="en">SkullsBay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000062 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:label xml:lang="en">GreatOcean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000007"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000008"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000009"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000010"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000011"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000012"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000011"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000025"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000026"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000033"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000049"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000050"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000052"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000053"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000054"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000055"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000057"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000014"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000015"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000016"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000018"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000019"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000020"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000021"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000022"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000029"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000030"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000031"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000032"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000041"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000042"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000043"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000045"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000046"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000047"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000060"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000061"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000062"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
