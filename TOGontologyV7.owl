@@ -1,0 +1,2816 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3">
+        <owl:versionIRI rdf:resource="urn:absolute:www.sarahjmaasbooks.com/ontologies/throneofglass.owl"/>
+        <rdfs:comment>The ontology of the Throne of Glass series by Sarah J Mass.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000038 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000038">
+        <rdfs:label xml:lang="en">isFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000063 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000063">
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label>isBoarderdBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000064 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000064">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isOffTheCoastOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000078 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000078">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isCousinsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000079 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000079">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isSiblingsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000080 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000080">
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <rdfs:label xml:lang="en">isRelatedTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000081 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000081">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000096"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isDescendedof</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000084 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000084">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isPartnersWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000085 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000085">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isMarriedTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000094 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000094">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isParentOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000095 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000095">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isChildOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000096 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000096">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">isAnAncestorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000132 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000132">
+        <rdfs:label xml:lang="en">isTheCapitalOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000133 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000133">
+        <rdfs:label xml:lang="en">aPseudonymFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000134 -->
+
+    <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000134">
+        <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasPseudonym</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Located on the west coast of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A mountain range located in terrasen, home to the Bane&apos;s camp.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000008"/>
+        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
+        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Locaed near the Frozen Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
+        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000002 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000002">
+        <rdfs:comment>Warning: Contains spoilers up to and including the 5th book, Empire of Storms.</rdfs:comment>
+        <rdfs:isDefinedBy>The fantasy book series by New York Times #1 best selling author, Sarah J Maas.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ThroneOfGlass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000007 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Orynth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000008 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Perranth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000009 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Suria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000010 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Ruled by House Allsbrook.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/TOG_0000012 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000024 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000024">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
+        <rdfs:isDefinedBy>Bellhaven is a port city on the eastern coast of Fenharrow.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bellhaven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>A tower built by the King of Ardarlan in the southwestern most part of Erilea, acting as an Adarlanian outpost for military.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Noll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000002 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000014"/>
+        <rdfs:isDefinedBy>The Assassin&apos;s Keep is an elegant manor in the upper-class section of Rifthold. It is the headquarters to the Assassin&apos;s Guild, formerly led by Arobynn Hamel.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheAssassinsKeep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000003 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:isDefinedBy>The characters that exist in the Throne of Glass series up to the 5th novel, Empire of Storms.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">People</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000004 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:isDefinedBy>The places (inlcudes, continents, kingdoms and important cities and locations) that exist in the Throne of Glass series up to the 5th novel, Empire of Storms.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000005 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000062"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:isDefinedBy>Erilea is the main continent in which Throne of Glass takes place. The continent of Erilea has been home to humans, wild animals and Fae.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Erilea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000006 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000006">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000060"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>Terrasen is a country located in the northernmost part of Erilea. Founded by House Galathynius, Terrasen is one of the largest kingdoms on the continent. During the King of Adarlan&apos;s invasion, Terrasen was the first to be conquered and added to Adarlan&apos;s empire.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Terrasen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000007 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
+        <rdfs:isDefinedBy>Home to the Silent Assassins, a faction of assassins in the Red Desert in the southwest of Erilea.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheRedAssassinsCompound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000008 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
+        <rdfs:isDefinedBy>The characters in the Throne of Glass series who belong to the noble class.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000009 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
+        <rdfs:isDefinedBy>The characters in the Throne of Glass series who do not belong to the noble class.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NonNobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000010 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000010">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000099"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Ruled by House Galathynius. House Galathynius&apos;s colors are said to be silver and green, and their crest that of Mala Fire-Bringer&apos;s sun stag.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ModernRoyalFamilyOfTerrasen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000011 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>A territory in Erilea in the most northwestern area of the continent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FrozenWastes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000012 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000012">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:allValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000099"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>House Havilliard is the ruling house of Adarlan, descendant from Gavin Havilliard. The royal family resides in Rifthold, the capital city, and their symbol is a red wyvern.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ModernRoyalFamilyOfAdarlan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000013 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>Adarlan is the kingdom that built the empire of the East of Erilea. It is ruled by the Havilliard family.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Adarlan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000014 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000014">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>The capital city of Adarlan and home to the King.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rifthold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000015 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Meah is a small yet prosperous city located on the coast of Adarlan, ruled by a cadet branch of House Havilliard. It&apos;s Lord is the father of Roland Havilliard. Although the city&apos;s great fortune, it does not hold political power or an army.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Meah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000016 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Endovier is a slave town in the northern portion of Adarlan on the border with Terrasen, nested between the Ruhnn Mountain range and Oakwald Forest.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Endovier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000017 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000016"/>
+        <rdfs:isDefinedBy>A work camp for the slaves imprisioned by the King of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SaltMines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000018 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Morath is a merchant city in Adarlan, ruled by Duke Perrington.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Morath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000019 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Borders the White Fang Mountains, ruled by House Westfall.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Anielle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000020 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>A narrow passage through the Rhun and White Fang mountain ranges.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheFerianGap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000021 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000019"/>
+        <rdfs:isDefinedBy>Located near the White Fang mountains.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheSilverLake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000022 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>The Avery River flows through Rifthold, with the harbor opening into the Great Ocean. The harbor contains warships, merchant vessels, and fishing boats.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AveryRiver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000023 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>Fenharrow is a kingdom in eastern Erilea, south of Adarlan and east of Melisande. Described as a beautiful expanse of flat land and farms stretching on forever, bordered by mountains in the west and the sea to the east. Its capital city is Bellhaven.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fenharrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000024 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000024">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>The nobility of the Fae.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FaeRoyalty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000025 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000025">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000061"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>In Skulls Bay, ruled by the Pirate Lord, Captain Rolfe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">DeadIslands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000026 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>Melisande is the smallest country in Erilea, west of Fenharrow and south of the White Fang Mountains, bordered by near-impassable mountains and the Oakwald Forest.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Melisande</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000027 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:isDefinedBy>Wendlyn is a kingdom located east of Erilea, across the Great Ocean. It is ruled by House Ashryver.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wendlyn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000028 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>Eyllwe is a kingdom in the southeastern peninsula of Erilea and is one of the few conquered countries still rebelling against Adarlan&apos;s rule. With two of the most prosperous cities on the continent and many crucial trade routes, Eyllwe has a rich economy and boasts a plethora of farmlands, waterways, and forests.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Eyllwe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000029 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:isDefinedBy>Calaculla was a Slave Labour Camp in Eyllwe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Calaculla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000030 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:isDefinedBy>Sits along the eastern coast of Eyllwe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Leriba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000031 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000031">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:isDefinedBy>Banjali is situated near the Grasslands of Eyllwe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Banjali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000032 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:isDefinedBy>A territory in Eyllwe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GrasslandsOfEyllwe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000033 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Located in Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheFrozenWastes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000034 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000024"/>
+        <rdfs:isDefinedBy>Mab was the youngest of the three Legendary Fae Queens, alongside Maeve and Mora. After her death it was presumed she was proclaimed a goddess: known as Deanna. Whether or not this is true is unknown. However in most of the cases as mentioned in the books, Mab and Deanna are described as one being. She is the founding ancestor of House Ashryver of Wendlyn, and her descendants have inherited their magical powers after her.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000035 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000035">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000122"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000024"/>
+        <rdfs:isDefinedBy>The Queen of the Fae, rules in Doranelle. One of the legendary three Fae Queens alongside sisters Mab and Mora.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Maeve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000036 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000036">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000096"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000037"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000024"/>
+        <rdfs:isDefinedBy>Mora was one of the three Fae sister-queens, sister of Maeve and Mab. She was described as a cunning Queen who bore the shape of a great hawk. She is the ancestor of Rowan Whitethorn and the Whitethorn family that take the hawk as their sigil.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000037 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000037">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000036"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>After his blood oath with Maeve ended, he swore the blood oath to Aelin Ashryver Galathynius and became the first member of her court.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RowanWhitethorn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000039 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000039">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000045"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
+        <rdfs:isDefinedBy>The witches in the Throne of Glass series (introduced in the 3rd novel, Heir of Fire).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheWitches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000040 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000067"/>
+        <rdfs:isDefinedBy>The Blueblood Clan is one of the three Ironteeth Witch Clans.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theBluebloodClan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000041 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+        <rdfs:isDefinedBy>A tower contructed by the King of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Amaroth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000042 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+        <rdfs:isDefinedBy>Southeast of Amaroth lie the Ruins of Morla.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheRuinsOfMorla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000043 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+        <rdfs:isDefinedBy>positioned just south of the ruins of Morla.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">JungleOfMorla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000044 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>A territory in Erliea, a wide expanse of fertile land once known as the Witch Kingdom.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheWesternWastes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000045 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:isDefinedBy>This region was once ruled by a centuries-old dynasty of Crochan witches, the last of whom was Rhiannon. When the Crochan dynasty was defeated by the Ironteeth witches, the last Crochan queen cursed the land of the Witch Kingdom</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheWitchKingdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000046 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:isDefinedBy>City on the coast of the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Briarcliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000047 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The dangerous Bogdano Jungle sits on a stretch of land to the east of the Deserted Lands</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BogdanoJungle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000048 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:isDefinedBy>A territory in Erliea.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheDesertedLand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000049 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Norht of the Red Desert.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheSingingSands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000050 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>A large city in the Deserted Lands.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Yurpa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000051 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Home to the Silent Assassins.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheRedDesert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000052 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:comment>A wide ravine called the Desert Cleaver can be found north of Xandria.</rdfs:comment>
+        <rdfs:label xml:lang="en">TheCleaver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000053 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000053">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The capital city of the Deserted Land.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Xandria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000054 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Located north of the Black Sands.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OasisOfBarg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000055 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The Black Dunes take up a fair portion of the southern coast, with their westernmost end being the Black Sands of Roth</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheBlackDunes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000056 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000067"/>
+        <rdfs:isDefinedBy>The Blackbeak Clan is one of the three Ironteeth Witch Clans.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theBlackbeakClan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000057 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000055"/>
+        <rdfs:isDefinedBy>Located in the Black Dunes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheBlackSandsofRoth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000058 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:isDefinedBy>The Southern Continent is the continent to the south of Erilea. It is ruled by the Khaganate, who conquered it 300 years ago.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheSouthernContinent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000059 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
+        <rdfs:isDefinedBy>Bodies of water (including rivers lakes and oceans) that are mapped out in Throne of Glass.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OceanicBodiesOfWater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000060 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000060">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:isDefinedBy>Norther body of water that borders Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NorthSea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000061 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000061">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000025"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:isDefinedBy>Located around the Dead Islands, ruled by the Pirate Lord, Captain Rolfe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SkullsBay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000062 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000062">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:isDefinedBy>Surrounds the continent of Erilea</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GreatOcean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000065 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000067"/>
+        <rdfs:isDefinedBy>The Blueblood Clan is one of the three Ironteeth Witch Clans.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theYellowlegsClan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000066 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000066">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000072"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000056"/>
+        <rdfs:isDefinedBy>The Blackbeak Matron is grandmother of Manon and Matron of the Blackbeak Clan, one of the three Ironteeth Witch Clans.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theMatronBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000067 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000039"/>
+        <rdfs:isDefinedBy>Ironteeth Witches are a species of witch created by the mating of Valg and Fae said to take after the Valg while the Crochan witches took after the Fae. Ironteeth witches all share a retractable set of iron teeth, nails and a clear eyelid for flying.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theIronteethWitches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000068 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000039"/>
+        <rdfs:isDefinedBy>House Crochan had been once the ruling house of the Witch Kingdom, before its last queen was abolished by a clan of Ironteeth Witches. The line was passed onto female heirs, witches using white magic.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theCrochanWitches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000070 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:label xml:lang="en">ModernRoyalFamilyofWendlyn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000071 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000066"/>
+        <rdfs:isDefinedBy>The Thirteen is a Blackbeak coven under the command of Manon Blackbeak. They are considered to be the fiercest and most disciplined of all the Ironteeth Witches, thus leading the witch covens into battle.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theThirteen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000072 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000072">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000073"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000066"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>First of the Thirteen, granddaughter and heir to the Blackbeak Matron, Wing Leader of the wyvern army.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ManonBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000073 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000073">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000072"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>Second of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AsterinBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000074 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>Third of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SorrelBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000075 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">VestaBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000076 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000076">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000077"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the Demon Twins of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FalineBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000077 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000077">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000076"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the Demon Twins of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FallonBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000082 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000082">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000072"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000083"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of Manon Blackbeak&apos;s Shadows.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EddaBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000083 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000083">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000082"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of Manon Blackbeak&apos;s Shadows.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BirarBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000086 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000086">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000087"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheaBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000087 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000087">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000086"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">KayaBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000088 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">LinneaBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000089 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GhislaineBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000090 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000071"/>
+        <rdfs:isDefinedBy>One of the members of the Thirteen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ImogenBlackbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000091 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000065"/>
+        <rdfs:comment>Is deceased.</rdfs:comment>
+        <rdfs:isDefinedBy>Baba Yellowlegs was an Ironteeth Witch and former Matron of the Yellowlegs Clan, claiming to be the last witch born in the Witch Kingdom.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BabaYellowlegs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000092 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000092">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000093"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000065"/>
+        <rdfs:isDefinedBy>The current Matron of the Yellowlegs Clan after Baba Yellowlegs was killed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theMatronYellowlegs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000093 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000093">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000092"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000092"/>
+        <rdfs:isDefinedBy>Heir to the Yellowlegs Matron.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">IskraYellowlegs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000097 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000097">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000098"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000040"/>
+        <rdfs:isDefinedBy>Cresseida Blueblood is an Ironteeth Witch and Matron of the Blueblood Clan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">theMatronCresseidaBlueblood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000098 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000098">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000097"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000097"/>
+        <rdfs:isDefinedBy>Heir to the Blueblood Matron.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">PetrahBlueblood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000099 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000099">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000101"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Mala Fire-Bringer is also known as Mala Light-Bringer, and the Lady of Light, Learning and Fire. She is one of the main deities present in Erilea. She is the Goddess of the Sun. The sun stags are her sacred animals, who wield her immortal flame between their antlers.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MalaFireBringer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000100 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000100">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000099"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000101"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Brannon Galathynius was the Fae King and founder of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BrannonGalathynius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000101 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000101">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000102"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000099"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Elena Havilliard (née Galathynius ) was the daughter of the Fae king Brannon and Mala. She was the first Queen of Adarlan, married to King Gavin Havilliard. The tombs of her and her husband are placed beneath the grounds of the Glass Castle in Rifthold.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ElenaGalathyniusHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000102 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000102">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000101"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Gavin Havilliard was the first king of Adarlan, the husband of Elena Galathynius, and the founder of House Havilliard of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GavinHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000103 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000103">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000142"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000104"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000105"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000106"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+        <rdfs:isDefinedBy>The King of Adarlan was the unnamed ruler of the kingdom of Adarlan. Is possessed by a Valg prince.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheKingofAdarlan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000104 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000104">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000103"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000105"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000106"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+        <rdfs:isDefinedBy>Georgina Havilliard is the Queen of Adarlan, wife to the King of Adarlan, and mother of Dorian and Hollin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">QueenGeorginaHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000105 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000105">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000123"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000106"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000103"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000104"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+        <rdfs:isDefinedBy>King Dorian Havilliard is the first-born son of Georgina Havilliard and the late King of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">DorianHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000106 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000106">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000123"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000105"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000103"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000104"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+        <rdfs:isDefinedBy>Hollin Havilliard is the youngest son of the King of Adarlan and his wife, Queen Georgina.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">HollinHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000107 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000107">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000108"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+        <rdfs:comment>Is deceased.</rdfs:comment>
+        <rdfs:isDefinedBy>Rhoe Galathynius was the Crown Prince of Terrasen, heir to his uncle King Orlon Galathynius. He was the husband of Princess Evalin Ashryver and father of their daughter Princess Aelin Ashryver Galathynius.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RhoeGalathynius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000108 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000108">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000034"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000107"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+        <rdfs:isDefinedBy>Evalin Galathynius (née Ashryver) was the mother of Aelin, wife of Rhoe Galathynius, and the sister of the King of Wendlyn.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EvalinAshryverGalathynius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000109 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000109">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000107"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000108"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000134"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000125"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000134"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000136"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+        <rdfs:isDefinedBy>The lost queen of Terrasen and the last surviving member of the Galathynius line. The main character of the Throne of Glass series.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AelinAshryverGalathynius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000110 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000110">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000107"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+        <rdfs:comment>Is deceased.</rdfs:comment>
+        <rdfs:isDefinedBy>King Orlon Galathynius was the last king of Terrasen, Aelin&apos;s great-uncle, who was assassinated in his bed in the royal palace of Orynth.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OrlonGalathynius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000111 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000111">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000108"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000081"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000034"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000112"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:comment>Is decseased.</rdfs:comment>
+        <rdfs:isDefinedBy>The mother of Aedion and sister to the deseased Queen of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">IrisAshryver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000112 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000112">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000111"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+        <rdfs:isDefinedBy>The Wolf of the North, commander of the Bane. He served as a general in Adarlan&apos;s military before reuniting with his cousin and joining her court.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AedionAshryver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000113 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000035"/>
+        <rdfs:isDefinedBy>The Cadre is a group of Fae warriors that exist to serve the Fae Queen Maeve. Each member is sworn to Maeve by a Blood Oath which grants her complete control over them.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MaevesBloodWarriors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000114 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000114">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000111"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000112"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>He is known as the Lion of Doranelle, is the father to Aedion.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gavriel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000115 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>The most powerful demi-Fae male in existence. In love with Maeve but I would totally ship him and Elide if he ever get his head out of his rear end.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">LorcanSalvaterre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000116 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000116">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000119"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>Took the blood-oath to protect his twin brother, Connal, from Maeve.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fenrys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000117 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000117">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000112"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
+        <rdfs:isDefinedBy>Galan Ashryver is the Crown Prince of Wendlyn.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GalanAshryver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000118 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000118">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000117"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000070"/>
+        <rdfs:isDefinedBy>King Glaston Ashryver is the ruler of Wendlyn.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GlastonAshryver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000119 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000119">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000116"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>Connall is Fenrys&apos;s twin brother.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Connal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000120 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>Vaughan is a Fae male and a member of the cadre of warriors that serve Maeve.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Vaughan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000121 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000113"/>
+        <rdfs:isDefinedBy>The new leader of Maeve&apos;s warriors.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cairn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000122 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+        <rdfs:isDefinedBy>Doranelle, called the City of Rivers, is the Fae city ruled by Queen Maeve. It is located on the continent of Wendlyn.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Doranelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000123 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000123">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000105"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000106"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+        <rdfs:isDefinedBy>The Lord of Meah.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RolandHavilliard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000124 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000124">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000002"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>The Assassins&apos; Guild is an Erilean organization of assassins. Its headquarters are located in Rifthold at the Assassins&apos; Keep. The Guild itself trains and employs all of the assassins of the continent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AssassinsGuild</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000125 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000125">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000134"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000136"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000134"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000155"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>Nicknamed &quot;Adarlan&apos;s Assissin&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CelaenaSardothian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000126 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000126">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000124"/>
+        <rdfs:isDefinedBy>King of the Assassins</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ArobynHamel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000127 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000127">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>He was one of the favoured assassins of Arobynn Hamel.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000128 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000128">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000125"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:comment>Is Deceased</rdfs:comment>
+        <rdfs:isDefinedBy>A member of the Assassins&apos; Guild who resisided at the Assassins&apos; Keep.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SamCortland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000129 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000129">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>Wesley was the personal body guard of the King of Assassins, Arobynn Hamel and lover to the courtesan, Lysandra</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wesley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000130 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000130">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>A member of the Assassin&apos;s Guild.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Harding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000131 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000131">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>A member of the Assassin&apos;s Guild.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mullin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000135 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000135">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000137"/>
+        <rdfs:isDefinedBy>Princess of Ellywe.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NehemiaYtger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000136 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000136">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/PIZZA_0000024"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000125"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>The identity used by Celaena Sardothian while in the competion for King&apos;s Assassing. Supposedly a jewel theif from Bellhaven.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">LillianGordana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000137 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000137">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Adarlan still controls Eyllwe, but the King of Adarlan has allowed the royal family of Eyllwe to retain their titles.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ModernRoyalFamilyOfEllywe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000138 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000138">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000007"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>The Silent Assassins of the Red Desert, also known as Sessiz Suikast, are a legendary order of assassins within the Deserted Land, led by The Mute Master.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheSilentAssassins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000139 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000139">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:allValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000046"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000144"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Ansel of Briarcliff is the Queen of the Western Wastes and a former Silent Assassin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AnselOfBriarcliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000140 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000140">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000094"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000143"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000138"/>
+        <rdfs:isDefinedBy>The Mute Master is a legendary assassin that leads the order of The Silent Assassin, well-known for his self-imposed silence.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheMuteMaster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000141 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000141">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/PIZZA_0000024"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Kaltain was born to the incredibly wealthy Rompier family who, while they are low-born, are rumored to be richer than the King and come from a line of powerful magic users that seemingly disappeared two generations ago.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">KaltainRompier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000142 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000142">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000103"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Duke Perrington the Duke of Morath. He is inhabited by the Valg king Erawan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">DukePerrington</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000143 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000143">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000140"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000140"/>
+        <rdfs:isDefinedBy>Ilias is a Silent Assassin and the son of the Mute Master.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Illias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000144 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000144">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000139"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000140"/>
+        <rdfs:isDefinedBy>Mikhail was an assassin trained by The Silent Assassins before his death by the hands of his lover, Ansel of Briarcliff.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mikhail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000145 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000145">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000025"/>
+        <rdfs:label xml:lang="en">SkullsBay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000146 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000146">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000019"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Chaol Westfall is the former Adarlanian Captain of the Royal Guard, and the Hand of the King to his best friend, King Dorian Havilliard.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ChaolWestfal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000147 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000147">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>Captain Rolfe, also known as the Pirate Lord, is a notorious pirate who rules Skull&apos;s Bay.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CaptainRolfe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000148 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000148">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000149"/>
+        <rdfs:isDefinedBy>Lysandra is a shapeshifter and was forced to become a courtesan due to poverty.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Lysandra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000149 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000149">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>Clarisse DuVency is a renowned madam whose brothel caters to the rich of Rifthold.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Clarisse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000150 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000150">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000149"/>
+        <rdfs:isDefinedBy>Archer Finn was a courtesan, Celaena&apos;s former friend, and a part of the rebel movement to restore Aelin to the throne of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ArcherFinn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000151 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000151">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/TOG_0000010"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000152"/>
+        <rdfs:isDefinedBy>Part of a rebel movement in Rifthold to restore Aelin to the throne of Terrassen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RenAllsbrook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000152 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000152">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/TOG_0000010"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000151"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Murtaugh Allsbrook is Ren Allsbrook&apos;s grandfather and a member of House Allsbrook by marriage. He and his grandson are members of the rebel group working to restore Aelin Ashryver Galathynius to the throne of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MurtaghAllsbrook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000153 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000153">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>The Valg are a race of powerful and malicious demons.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheValg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000154 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000154">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000153"/>
+        <rdfs:isDefinedBy>Erawan is a Valg king.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Erawan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000155 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000155">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000109"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000125"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>A name given to Celaena Sardothian by the Princess Nehimia meaning &quot;spirit that could not be broken&quot;.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Elentiya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000156 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000156">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>A healer who wishes to study healing at the Torre.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">YreneTowers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000157 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000157">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:isDefinedBy>Nesryn Faliq is a former city guard of Rifthold. She worked with Chaol and the rebels to overthrow the King of Adarlan. After the coup&apos;s success, she became the Captain of the Royal Guard.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">NesrynFaliq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000158 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000158">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>Arobynn Hamel&apos;s Second-in-Command.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ben</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000159 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000159">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000126"/>
+        <rdfs:isDefinedBy>Was considered one of Arobynn Hamel&apos;s seven most trusted assassins.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gregori</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000160 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000160">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000166"/>
+        <rdfs:isDefinedBy>The Torre Cesme is an ancient building in Antica that houses and trains gifted healers.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheTorre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000161 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000161">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000027"/>
+        <rdfs:isDefinedBy>A home for Demi-Fae who are waiting to be granted entrance to Dorannelle on the border of Dorannelle.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mistward</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000162 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000162">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000161"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+        <rdfs:label xml:lang="en">HabitantsofMistward</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000163 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000163">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000164"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000162"/>
+        <rdfs:isDefinedBy>A Demi-Fae who works in the kitchens and serves as the Story Keeper at Mistward Keep.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Emrys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000164 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000164">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000163"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000162"/>
+        <rdfs:isDefinedBy>A Demi-Fae warrior and Emry&apos;s mate and husband.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Malakai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000165 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000165">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000162"/>
+        <rdfs:isDefinedBy>Works in the kitchens at Mistward.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Luca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000166 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000166">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
+        <rdfs:isDefinedBy>The largest city on the Southern Continent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Antica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000167 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000167">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000014"/>
+        <rdfs:isDefinedBy>Castle of the King of Adarlan</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheGlassCastle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000168 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000168">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
+        <rdfs:isDefinedBy>The Stone Marshes were once home to a great city of impressive architecture, but a great cataclysm sunk the earth for miles and allowed both water and beasts to flow inland from the nearby rivers. It is described as if a god had stomped on the once-great city.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheStoneMarshes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000169 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Eldrys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000170 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000170">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Illium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000171 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000171">
+        <rdfs:comment>Maas, S. J. (2012). Throne of glass. New York: Bloomsbury.
+
+Maas, S. J. (2013). Crown of midnight. New York: Bloomsbury.
+
+Maas, S. J. (2014). Heir of fire. New York: Bloomsbury.
+
+Maas, S. J. (2014). The assassin&apos;s blade. New York: Bloomsbury.
+
+Maas, S. J. (2015). Queen of shadows. New York: Bloomsbury.
+
+Maas, S. J. (2016). Empire of storms. New York: Bloomsbury.
+
+Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki/Throne_of_Glass_Wiki</rdfs:comment>
+        <rdfs:label xml:lang="en">Citations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000007"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000008"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000009"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000010"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000012"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000049"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000050"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000052"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000053"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000054"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000055"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000057"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000014"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000015"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000016"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000018"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000019"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000020"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000021"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000022"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000029"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000030"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000031"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000032"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000041"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000042"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000043"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000045"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000046"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000047"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000060"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000061"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000062"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
