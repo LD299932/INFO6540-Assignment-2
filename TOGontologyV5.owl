@@ -208,6 +208,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000008"/>
+        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
         <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
     </owl:Class>
     
@@ -247,6 +248,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
         <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
     </owl:Class>
     
@@ -273,6 +275,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Orynth</rdfs:label>
     </owl:Class>
     
@@ -282,6 +285,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000008">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Perranth</rdfs:label>
     </owl:Class>
     
@@ -291,6 +295,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000009">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Suria</rdfs:label>
     </owl:Class>
     
@@ -310,6 +315,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000012">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Rosamel</rdfs:label>
     </owl:Class>
     
@@ -336,6 +342,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>A tower built by the King of Ardarlan in the southwestern most part of Erilea, acting as an Adarlanian outpost for military.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Noll</rdfs:label>
     </owl:Class>
     
@@ -374,6 +381,12 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000005 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000062"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000004"/>
         <rdfs:isDefinedBy>Erilea is the main continent in which Throne of Glass takes place. The continent of Erilea has been home to humans, wild animals and Fae.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Erilea</rdfs:label>
@@ -384,6 +397,12 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000006 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000006">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000060"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
         <rdfs:isDefinedBy>Terrasen is a country located in the northernmost part of Erilea. Founded by House Galathynius, Terrasen is one of the largest kingdoms on the continent. During the King of Adarlan&apos;s invasion, Terrasen was the first to be conquered and added to Adarlan&apos;s empire.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Terrasen</rdfs:label>
@@ -395,6 +414,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
+        <rdfs:isDefinedBy>Home to the Silent Assassins, a faction of assassins in the Red Desert in the southwest of Erilea.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheRedAssassinsCompound</rdfs:label>
     </owl:Class>
     
@@ -461,7 +481,6 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:isDefinedBy>A territory in Erilea in the most northwestern area of the continent.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">FrozenWastes</rdfs:label>
     </owl:Class>
@@ -635,6 +654,12 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000025 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000025">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000061"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
         <rdfs:isDefinedBy>In Skulls Bay, ruled by the Pirate Lord, Captain Rolfe.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">DeadIslands</rdfs:label>
@@ -715,6 +740,16 @@
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
         <rdfs:isDefinedBy>A territory in Eyllwe.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">GrasslandsOfEyllwe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000033 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Located in Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">TheFrozenWastes</rdfs:label>
     </owl:Class>
     
 
@@ -847,7 +882,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000044">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
-        <rdfs:isDefinedBy>A territory in Erliea.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>A territory in Erliea, a wide expanse of fertile land once known as the Witch Kingdom.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheWesternWastes</rdfs:label>
     </owl:Class>
     
@@ -857,6 +892,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000045">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:isDefinedBy>This region was once ruled by a centuries-old dynasty of Crochan witches, the last of whom was Rhiannon. When the Crochan dynasty was defeated by the Ironteeth witches, the last Crochan queen cursed the land of the Witch Kingdom</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheWitchKingdom</rdfs:label>
     </owl:Class>
     
@@ -866,6 +902,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000046">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:isDefinedBy>City on the coast of the Western Wastes.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Briarcliff</rdfs:label>
     </owl:Class>
     
@@ -874,7 +911,8 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000047 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000047">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000044"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The dangerous Bogdano Jungle sits on a stretch of land to the east of the Deserted Lands</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">BogdanoJungle</rdfs:label>
     </owl:Class>
     
@@ -894,6 +932,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000049">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Norht of the Red Desert.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheSingingSands</rdfs:label>
     </owl:Class>
     
@@ -903,6 +942,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000050">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>A large city in the Deserted Lands.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Yurpa</rdfs:label>
     </owl:Class>
     
@@ -912,6 +952,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000051">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Home to the Silent Assassins.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheRedDesert</rdfs:label>
     </owl:Class>
     
@@ -921,7 +962,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000052">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
-        <rdfs:comment>A river near Xandria in the Deserted Lands.</rdfs:comment>
+        <rdfs:comment>A wide ravine called the Desert Cleaver can be found north of Xandria.</rdfs:comment>
         <rdfs:label xml:lang="en">TheCleaver</rdfs:label>
     </owl:Class>
     
@@ -930,7 +971,14 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000053 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000053">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The capital city of the Deserted Land.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Xandria</rdfs:label>
     </owl:Class>
     
@@ -940,6 +988,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000054">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>Located north of the Black Sands.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">OasisOfBarg</rdfs:label>
     </owl:Class>
     
@@ -949,6 +998,7 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000055">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:isDefinedBy>The Black Dunes take up a fair portion of the southern coast, with their westernmost end being the Black Sands of Roth</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheBlackDunes</rdfs:label>
     </owl:Class>
     
@@ -967,7 +1017,8 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000057 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000057">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000055"/>
+        <rdfs:isDefinedBy>Located in the Black Dunes.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheBlackSandsofRoth</rdfs:label>
     </owl:Class>
     
@@ -1003,6 +1054,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        <rdfs:isDefinedBy>Norther body of water that borders Terrasen.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">NorthSea</rdfs:label>
     </owl:Class>
     
@@ -1011,6 +1063,12 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000061 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000061">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000025"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
         <rdfs:isDefinedBy>Located around the Dead Islands, ruled by the Pirate Lord, Captain Rolfe.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">SkullsBay</rdfs:label>
@@ -1021,6 +1079,12 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000062 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000062">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
+                <owl:someValuesFrom rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
         <rdfs:isDefinedBy>Surrounds the continent of Erilea</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">GreatOcean</rdfs:label>
@@ -2599,6 +2663,26 @@
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000028"/>
         <rdfs:isDefinedBy>The Stone Marshes were once home to a great city of impressive architecture, but a great cataclysm sunk the earth for miles and allowed both water and beasts to flow inland from the nearby rivers. It is described as if a god had stomped on the once-great city.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">TheStoneMarshes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000169 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Eldrys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0000170 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000170">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Illium</rdfs:label>
     </owl:Class>
     
 
