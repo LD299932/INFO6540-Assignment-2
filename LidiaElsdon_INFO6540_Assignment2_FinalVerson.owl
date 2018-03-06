@@ -6,8 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/untitled-ontology-3">
-        <owl:versionIRI rdf:resource="urn:absolute:www.sarahjmaasbooks.com/ontologies/throneofglass.owl"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/throne-of-glass-ontology">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/throne-of-glass-ontology"/>
         <rdfs:comment>The ontology of the Throne of Glass series by Sarah J Mass.</rdfs:comment>
     </owl:Ontology>
     
@@ -184,139 +184,12 @@
     
 
 
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Located on the west coast of Adarlan.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000035 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>A mountain range located in terrasen, home to the Bane&apos;s camp.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000036 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000008"/>
-        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
-        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000038 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>Locaed near the Frozen Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000039 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000040 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
-        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
-        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pizza.owl/ontologies/TOG_0000002 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000002">
         <rdfs:comment>Warning: Contains spoilers up to and including the 5th book, Empire of Storms.</rdfs:comment>
         <rdfs:isDefinedBy>The fantasy book series by New York Times #1 best selling author, Sarah J Maas.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">ThroneOfGlass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/TOG_0000007 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000007">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Orynth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/TOG_0000008 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000008">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Perranth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/TOG_0000009 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000009">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Suria</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/TOG_0000010 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000010">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>Ruled by House Allsbrook.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/TOG_0000012 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000012">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
     </owl:Class>
     
 
@@ -334,6 +207,76 @@
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
         <rdfs:isDefinedBy>Bellhaven is a port city on the eastern coast of Fenharrow.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Bellhaven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Located on the west coast of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A mountain range located in terrasen, home to the Bane&apos;s camp.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
+        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Locaed near the Frozen Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
+        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
     </owl:Class>
     
 
@@ -413,8 +356,18 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000007 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
         <rdfs:isDefinedBy>Home to the Silent Assassins, a faction of assassins in the Red Desert in the southwest of Erilea.</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Orynth</rdfs:label>
         <rdfs:label xml:lang="en">TheRedAssassinsCompound</rdfs:label>
     </owl:Class>
     
@@ -424,8 +377,11 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000008">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>The characters in the Throne of Glass series who belong to the noble class.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Nobility</rdfs:label>
+        <rdfs:label xml:lang="en">Perranth</rdfs:label>
     </owl:Class>
     
 
@@ -434,8 +390,11 @@
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000009">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>The characters in the Throne of Glass series who do not belong to the noble class.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">NonNobility</rdfs:label>
+        <rdfs:label xml:lang="en">Suria</rdfs:label>
     </owl:Class>
     
 
@@ -470,8 +429,11 @@
                 <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>Ruled by House Allsbrook.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>Ruled by House Galathynius. House Galathynius&apos;s colors are said to be silver and green, and their crest that of Mala Fire-Bringer&apos;s sun stag.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
         <rdfs:label xml:lang="en">ModernRoyalFamilyOfTerrasen</rdfs:label>
     </owl:Class>
     
@@ -510,9 +472,12 @@
                 <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>House Havilliard is the ruling house of Adarlan, descendant from Gavin Havilliard. The royal family resides in Rifthold, the capital city, and their symbol is a red wyvern.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">ModernRoyalFamilyOfAdarlan</rdfs:label>
+        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
     </owl:Class>
     
 
@@ -2434,7 +2399,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/TOG_0000010"/>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000152"/>
@@ -2451,7 +2416,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/TOG_0000010"/>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
@@ -2747,24 +2712,13 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000035"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000007"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000008"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000009"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000010"/>
-            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/TOG_0000012"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000035"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000036"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000037"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000038"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000040"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -2787,6 +2741,17 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
             <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
             <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000058"/>
             <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000059"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
