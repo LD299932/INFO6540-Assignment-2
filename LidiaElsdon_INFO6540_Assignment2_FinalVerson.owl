@@ -27,6 +27,7 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000038 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000038">
+        <rdfs:isDefinedBy>Locational Relationship: &quot;Person A&quot; is frome &quot;Place B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isFrom</rdfs:label>
     </owl:ObjectProperty>
     
@@ -37,6 +38,7 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000063">
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Locational Relationship: &quot;Place A&quot; is boardered by &quot;Oceanic Body of Water B&quot;</rdfs:isDefinedBy>
         <rdfs:label>isBoarderdBy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -47,6 +49,8 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000064">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>&quot;Oceanic Body of Water A&quot; is off the coast of &quot;Place B&quot;
+Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isOffTheCoastOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -58,6 +62,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is cousins (maternal or paternal) &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isCousinsWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -69,6 +74,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>&quot;Person A&quot; is siblings (ie. has at least one same parent) with &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isSiblingsWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -78,6 +84,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000080">
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is related (by blood or marriage) to &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isRelatedTo</rdfs:label>
     </owl:ObjectProperty>
     
@@ -89,6 +96,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000096"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is a descendant (distantly related) of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isDescendedof</rdfs:label>
     </owl:ObjectProperty>
     
@@ -100,6 +108,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is partners (in a romantic relationship) with &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isPartnersWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -111,6 +120,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>&quot;Person B&quot; is married to &quot;Person A&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isMarriedTo</rdfs:label>
     </owl:ObjectProperty>
     
@@ -122,6 +132,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is the parent (maternal or paternal) of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isParentOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -132,6 +143,7 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000095">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is the child of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isChildOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -142,6 +154,7 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000096">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is an ancestor (i.e. distantly related) to &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isAnAncestorOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -150,6 +163,7 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000132 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000132">
+        <rdfs:isDefinedBy>Locational Relationship: &quot;Place A: City&quot; is the capital city of &quot;Place B: Kingdom&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isTheCapitalOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -158,6 +172,7 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000133 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000133">
+        <rdfs:isDefinedBy>&quot;Person B&quot; is a fake name (i.e. a Pseudonym) for &quot;Person A&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">aPseudonymFor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -168,6 +183,7 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000134">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:isDefinedBy>&quot;Person A&quot; has a fake name (i.e. a Pseudonym) which is &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">hasPseudonym</rdfs:label>
     </owl:ObjectProperty>
     
