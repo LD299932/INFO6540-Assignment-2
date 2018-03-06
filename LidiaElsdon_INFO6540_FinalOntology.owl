@@ -184,16 +184,6 @@
     
 
 
-    <!-- http://www.pizza.owl/ontologies/TOG_0000002 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/TOG_0000002">
-        <rdfs:comment>Warning: Contains spoilers up to and including the 5th book, Empire of Storms.</rdfs:comment>
-        <rdfs:isDefinedBy>The fantasy book series by New York Times #1 best selling author, Sarah J Maas.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">ThroneOfGlass</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.throneofglass.owl/ontologies/TOG -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG">
@@ -217,7 +207,7 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000003 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000003">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_1100002"/>
         <rdfs:isDefinedBy>The characters that exist in the Throne of Glass series up to the 5th novel, Empire of Storms.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">People</rdfs:label>
     </owl:Class>
@@ -227,7 +217,7 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000004 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000004">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/TOG_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_1100002"/>
         <rdfs:isDefinedBy>The places (inlcudes, continents, kingdoms and important cities and locations) that exist in the Throne of Glass series up to the 5th novel, Empire of Storms.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Places</rdfs:label>
     </owl:Class>
@@ -2702,6 +2692,16 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
         <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
         <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_1100002 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_1100002">
+        <rdfs:comment>Warning: Contains spoilers up to and including the 5th book, Empire of Storms.</rdfs:comment>
+        <rdfs:isDefinedBy>The fantasy book series by New York Times #1 best selling author, Sarah J Maas.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ThroneOfGlass</rdfs:label>
     </owl:Class>
     
 
