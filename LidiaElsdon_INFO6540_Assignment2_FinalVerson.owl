@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/throne-of-glass-ontology">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/lidiaelsdon/ontologies/2018/1/throne-of-glass-ontology"/>
+        <owl:versionIRI rdf:resource="urn:absolute:www.sarahjmaasbooks.com/ontologies/throneofglass.owl"/>
         <rdfs:comment>The ontology of the Throne of Glass series by Sarah J Mass.</rdfs:comment>
     </owl:Ontology>
     
@@ -27,7 +27,6 @@
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000038 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000038">
-        <rdfs:isDefinedBy>Locational Relationship: &quot;Person A&quot; is frome &quot;Place B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isFrom</rdfs:label>
     </owl:ObjectProperty>
     
@@ -38,7 +37,6 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000063">
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000064"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Locational Relationship: &quot;Place A&quot; is boardered by &quot;Oceanic Body of Water B&quot;</rdfs:isDefinedBy>
         <rdfs:label>isBoarderdBy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -49,8 +47,6 @@
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000064">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>&quot;Oceanic Body of Water A&quot; is off the coast of &quot;Place B&quot;
-Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isOffTheCoastOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -62,7 +58,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000078"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is cousins (maternal or paternal) &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isCousinsWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -74,7 +69,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000079"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>&quot;Person A&quot; is siblings (ie. has at least one same parent) with &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isSiblingsWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -84,7 +78,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000080">
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is related (by blood or marriage) to &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isRelatedTo</rdfs:label>
     </owl:ObjectProperty>
     
@@ -96,7 +89,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000096"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is a descendant (distantly related) of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isDescendedof</rdfs:label>
     </owl:ObjectProperty>
     
@@ -108,7 +100,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is partners (in a romantic relationship) with &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isPartnersWith</rdfs:label>
     </owl:ObjectProperty>
     
@@ -120,7 +111,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000084"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000085"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>&quot;Person B&quot; is married to &quot;Person A&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isMarriedTo</rdfs:label>
     </owl:ObjectProperty>
     
@@ -132,7 +122,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <owl:inverseOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000095"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is the parent (maternal or paternal) of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isParentOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -143,7 +132,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000095">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is the child of &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isChildOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -154,7 +142,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000096">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000080"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>Familial Relationship: &quot;Person A&quot; is an ancestor (i.e. distantly related) to &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isAnAncestorOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -163,7 +150,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000132 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000132">
-        <rdfs:isDefinedBy>Locational Relationship: &quot;Place A: City&quot; is the capital city of &quot;Place B: Kingdom&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">isTheCapitalOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -172,7 +158,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000133 -->
 
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000133">
-        <rdfs:isDefinedBy>&quot;Person B&quot; is a fake name (i.e. a Pseudonym) for &quot;Person A&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">aPseudonymFor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -183,7 +168,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <owl:ObjectProperty rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000134">
         <rdfs:subPropertyOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000133"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:isDefinedBy>&quot;Person A&quot; has a fake name (i.e. a Pseudonym) which is &quot;Person B&quot;</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">hasPseudonym</rdfs:label>
     </owl:ObjectProperty>
     
@@ -197,6 +181,46 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Located on the west coast of Adarlan.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
+        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
+        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
+        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
+    </owl:Class>
     
 
 
@@ -223,76 +247,6 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000023"/>
         <rdfs:isDefinedBy>Bellhaven is a port city on the eastern coast of Fenharrow.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Bellhaven</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000034 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000034">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Located on the west coast of Adarlan.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">MountainsOfArarat</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000035 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000035">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>A mountain range located in terrasen, home to the Bane&apos;s camp.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000036 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000036">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
-        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
-        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000037 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000037">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">RuhnnMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000038 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000038">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>Locaed near the Frozen Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000039 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000039">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000013"/>
-        <rdfs:isDefinedBy>Mountain range in Adarlan to the west of Oakwald forest, near the boarder to the Western Wastes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">WhiteFangMountains</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.throneofglass.owl/ontologies/PIZZA_0000040 -->
-
-    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000040">
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000005"/>
-        <rdfs:comment>A large forest that cuts through Terrasen, Adarlan, Fenharrow, Melisande, and Eyllwe.</rdfs:comment>
-        <rdfs:label xml:lang="en">OakwaldForest</rdfs:label>
     </owl:Class>
     
 
@@ -372,18 +326,8 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
     <!-- http://www.throneofglass.owl/ontologies/TOG_0000007 -->
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000051"/>
         <rdfs:isDefinedBy>Home to the Silent Assassins, a faction of assassins in the Red Desert in the southwest of Erilea.</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Orynth</rdfs:label>
         <rdfs:label xml:lang="en">TheRedAssassinsCompound</rdfs:label>
     </owl:Class>
     
@@ -393,11 +337,8 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000008">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>The characters in the Throne of Glass series who belong to the noble class.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Nobility</rdfs:label>
-        <rdfs:label xml:lang="en">Perranth</rdfs:label>
     </owl:Class>
     
 
@@ -406,11 +347,8 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
 
     <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000009">
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
-        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>The characters in the Throne of Glass series who do not belong to the noble class.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">NonNobility</rdfs:label>
-        <rdfs:label xml:lang="en">Suria</rdfs:label>
     </owl:Class>
     
 
@@ -445,11 +383,8 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
                 <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000118"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
-        <rdfs:isDefinedBy>Ruled by House Allsbrook.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>Ruled by House Galathynius. House Galathynius&apos;s colors are said to be silver and green, and their crest that of Mala Fire-Bringer&apos;s sun stag.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
         <rdfs:label xml:lang="en">ModernRoyalFamilyOfTerrasen</rdfs:label>
     </owl:Class>
     
@@ -488,12 +423,9 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
                 <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000100"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
-        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>House Havilliard is the ruling house of Adarlan, descendant from Gavin Havilliard. The royal family resides in Rifthold, the capital city, and their symbol is a red wyvern.</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">ModernRoyalFamilyOfAdarlan</rdfs:label>
-        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
     </owl:Class>
     
 
@@ -2415,7 +2347,7 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0100010"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000152"/>
@@ -2432,7 +2364,7 @@ Note that &quot;Place B&quot; will always be a Continent or Kingdom.</rdfs:isDef
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000038"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0100010"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <owl:equivalentClass>
@@ -2717,6 +2649,93 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
     
 
 
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100007 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000132"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>The capital of Terrasen and once home to the monarch.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Orynth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100008 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100008">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Perranth is the second largest city in the Kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Perranth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100009 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100009">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Suria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100010 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100010">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Ruled by House Allsbrook.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Allsbrook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100012 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100012">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A city in the kingdom of Terrasen.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rosamel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100035 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100035">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>A mountain range located in terrasen, home to the Bane&apos;s camp.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StaghornMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_0100038 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100038">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0000006"/>
+        <rdfs:isDefinedBy>Locaed near the Frozen Wastes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AnascaulMountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.throneofglass.owl/ontologies/TOG_1100036 -->
+
+    <owl:Class rdf:about="http://www.throneofglass.owl/ontologies/TOG_1100036">
+        <rdfs:subClassOf rdf:resource="http://www.throneofglass.owl/ontologies/TOG_0100008"/>
+        <rdfs:comment>A mountain range near Perranth.</rdfs:comment>
+        <rdfs:label xml:lang="en">PerranthMountains</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2728,13 +2747,13 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000034"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000035"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000036"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000037"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000038"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000039"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/PIZZA_0000040"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000040"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100035"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100038"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_1100036"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -2762,12 +2781,12 @@ Throne of Glass Wiki. (n.d.). Retrieved from http://throneofglass.wikia.com/wiki
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000007"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000008"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000009"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000010"/>
             <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000011"/>
-            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0000012"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100007"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100008"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100009"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100010"/>
+            <rdf:Description rdf:about="http://www.throneofglass.owl/ontologies/TOG_0100012"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
